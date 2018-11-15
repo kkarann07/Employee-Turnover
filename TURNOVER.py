@@ -63,7 +63,7 @@ d = int(input("Average_monthly_hours:"))
 e = int(input("TimeSpentInCompany:"))
 f = int(input("WorkAccident:"))
 g = int(input("Promotion:"))
-h = int(input("Salary(High->1,Low->0,Medium->2):"))
+h = int(input("Salary(High->0,Low->1,Medium->2):"))
     
 y1 = np.column_stack([[a],[b],[c],[d],[e],[f],[g],[h]])
 
